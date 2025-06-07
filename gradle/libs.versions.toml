@@ -1,0 +1,12 @@
+[versions]
+scala = "2.12.2"
+spark = "3.5.6"
+delta = "3.3.2"
+junit-jupiter = "5.12.1"
+
+[libraries]
+scala-library = { module = "org.scala-lang:scala-library", version.ref = "scala" }
+spark = { module = "org.apache.spark:spark-sql_2.12", version.ref = "spark" }
+delta = { module = "io.delta:delta-spark_2.12", version.ref = "delta" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher" }
