@@ -6,7 +6,8 @@
  */
 
 rootProject.name = "spark-assist"
-include("spark")
+include("apps")
+include("shared")
 
 pluginManagement {
     plugins {
