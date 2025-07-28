@@ -15,6 +15,7 @@ dependencies {
 
     compileOnly(libs.spark)
     implementation(libs.delta)
+    implementation(libs.iceberg)
 
     implementation(project(":shared"))
 }
